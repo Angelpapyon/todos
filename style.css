@@ -1,0 +1,78 @@
+body{
+    background-image: url(img/fondo3.jpg);  /*para insertar la imagen de fondo*/
+    background-size:700px; /*para el tamtaño de la imagen*/
+    background-repeat: no-repeat;/* Para que la imagen de fondo no se repita */
+    background-position: center;/* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-attachment: fixed;/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-size: cover; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-color: black;/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+    
+}
+img.img_uno{
+  width: 300px;
+  height: 300px;
+}
+table {
+
+    margin: 0 auto;/* Para centrar usamos "auto" en la alineación horizontal */
+
+    border-collapse: collapse;/*Lo siguiente es para los bordes*/
+    border-style: solid;
+    border-color: azure;
+    border-image-source: url(img/fuego.gif);
+    text-align: center;
+    color: aliceblue;/*color de texto de toda la tabla*/
+    font-family: Impact;
+    font-size: 35pt;
+    margin-top: 230px;
+    
+}
+input{
+    font-size: 20pt;
+}
+button{
+    font-size: 20pt;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+
+.menu{
+    position: fixed;
+    overflow: hidden;
+    top: 0%; /*margen al tope de la pagina*/
+    left: 0%;
+    right: 0%;
+    font-family: Lucida Sans;
+    font-size: 15pt;
+    padding: 20px;
+    background-image: url(img/carita.jfif);
+    text-align: center; /*ALINEAR AL CENTRO TODO EL MENU*/
+    font-weight: 900; /*GROSOR DE LETRA EN NEGRILLA VA DESDE 1 HASTA EL 900*/
+    height: 20px; /*tamaño de altura que vamos ocupar para el menu*/
+    
+
+}
+.menu a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    color: rgb(255, 115, 0);
+    text-decoration: none;/*eliminar subyarado */
+    
+   
+    
+    
+}  
+.menu a:hover{ /* sirva para cuando aserquemos el maus cambie las siguientes estilos del menu*/
+    background:black;
+    color: rgb(255, 0, 0);
+    border:  2px solid;
+    background-image: url(img/calavera.gif);
+    background-size: 120px;
+
+}
